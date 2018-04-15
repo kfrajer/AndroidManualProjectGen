@@ -1,0 +1,11 @@
+
+
+Upload folder to remote -> https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+cd /c/Users/C/Desktop/moreDocuments/mySandBox/Android/AndroidSpace/AndroidManualProjectGen
+git init
+git add .
+git commit -m "First commit"
+git remote add origin https://github.com/kfrajer/AndroidManualProjectGen.git
+git remote -v
+git push origin master
